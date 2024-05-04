@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../api/securegpt_api"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../PycharmProjects/mv_algos"
+		}
+	],
+	"settings": {}
+}

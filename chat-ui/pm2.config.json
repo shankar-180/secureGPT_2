@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "securegpt",
+      "script": "build/index.js",
+      "watch": true,
+      "instances": 2,
+      "exec_mode": "cluster",
+      "env": {
+          "NODE_ENV": "production"
+      },
+       //"node_args": "--websocket",
+       "autorestart": true,  // Enable automatic restart
+        "max_restarts": 10 
+    }
+  ]
+}
